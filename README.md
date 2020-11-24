@@ -76,7 +76,7 @@ This will allow for script to train the robot on the model. You do not need to r
 python -m rasa_nlu.train -c config/object_config.yml --data data/training_dataset_object.json -o output --fixed_model_name RasaOnto --project RasaOnto --verbose
 ```
 
-## Run slang onto program
+## Run home-ontology onto program
 To run the script you need to do the following:
 ```
 source ~/catkin_ws/devel/setup.bash
