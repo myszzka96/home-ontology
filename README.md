@@ -24,7 +24,7 @@ a different path.
 - To be listed ...
 
 ## Python requirements
-- To be listed ...
+- To run the Google Speech API you will need to add file with your credentials and replace the Palpi-project-xxx.json
 
 ## Environmental Variables
 Add the following to your ~/.bashrc in Linux systems. For Windows, you would use "Set Environmental Path"
