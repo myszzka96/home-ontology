@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "palpi-project-1572632656896",
+  "private_key_id": "3a813fe8c7713d53b3a05d19166cd0663d0321b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCypau9zRqxSYcm\nYb6VNMM/+SvSCI7u1y95QkoAL/pC1donHIUu7MeVC3TGoIgn18zEsLjg92REObjy\ngdKKJHZjzmFw+y3dFopMYX/Wnm9UD8qteCh/JAYOJrUQdlGnaVu4E03dwxm1mUUl\nGjtmQ4dgBRFcHRWz/AsM59LIb6G6hI9M1Kf0PB0PqYQAtTs04zGwFiJ69/qRVpaj\nP06CVykXQgcsJ6NejKniIuJlhkySb6IHsGwL7Q30y3pbGM2delQgGDqIT03V/KbL\nlgSrytEmiWLLYuw1pM5S/zY6ZURNv8hOTpLXT6RKpfyQzXsMiL1NEUon8wfAd4c0\n61TNTeDfAgMBAAECggEATWhFw0cVEs6mVfYya1piY9zmpOp6bHknI+aaQ/yF9uHM\n1fegqdWFIUrGfa5fcMwr+OoOIcRwWLOeNM4V2S+1cMejJx5fIBY9NJ1mlCswV/9D\nteiDu5tzWDxjZk+uT9jyGg+bRMTd5fcUo9/67vPBu9RWUlBz7/n9G8lzZtAgBr3i\nAIgq9W06wO6H79hvYEtzVpjyxAR8W/dZE6Tt+3kqVqvFNCILD0/BxxW725phI6Ff\nuXj+bvWQF8Fx6gU6tazby9gtz3QPYM3bYUrWq0BjuWDk9Fs1dEE7iTh8md8rw59/\nwDRlI+X58pNBKy8mxpq3iAcmriKqMviyS3PmGNc/iQKBgQDgoXrpaJDHQ0ZhYk0j\nHL/6kk7sH5tHY8dbT0s4jOosBkRfi4VmtORCUKCE9QcXJ0VT2nmdaWPZy8MSDwNN\ns9Rd0gK8MVvgcm3Cr9zbMHvBLZkvYT58lxhaJNBJ0aSFSG9LR0urqog4wU8KK86H\nk2YM5wofA3Yiabe75NkE3A5tIwKBgQDLmEhAL3rVJwD7DrHO3hmuQjSSCkUDloiB\nkrvvOfmI339PaD4Rs+/GmzkL1REHeleKJWHvmnMSRReAZjMCIHIRPFDHjdg4sC8R\njT9nwbmKCcE4cVgH4Q4uncVuXeIBhHy2eU/KBtMa3W4Zivkuirp5WJSXDMjDbXWC\nBOlTMKyvFQKBgECKZRRXNPHrxHcKlXs3MXm/O+ngEu9qHceAeu5enpHToyWIouWl\np8fd/qD0/fqLEAJNzY+KzmOvhfbUVXCn8KacRqjnzawpdJvxh5V60rPodBEG8bs+\ndoK//RCYqZqZ+1A3xegm8UjNUfZsK8UMds/SOjg6+GBe26mi0S/yQjrdAoGAGFVu\nJUXHf5x20Ir0E46WMS62i9HwZ7phPGNmVPRv770OwVXrPUBtYyaATfq8W1FzDw7i\nwrmKEV/yrCUK6bEpEQhNe1xnwHbGWWmxb1xHKcl6r51UcTSj9kxjIYrVDWthYInl\nUHc6WhanJyRmHfr0yLYepGMhx8HYbp7ZqFjD+vUCgYEAkGtDh/z3KKEJVH3V644F\nnNi74thg4P7EvkfQnjb8A+T+VEcG1yRdJ351W2HpZzTTxrQtbkaKDi4mx1LjwLqB\n9Bsngda40Xj1QN80z2goaMkNM4LzvTx7NQ0ZXPtD+2IYKxR4qH74iaHiDEO74VUy\n6pCPu40bfmUWUadg2ft5+dI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "palpi-palpi@palpi-project-1572632656896.iam.gserviceaccount.com",
+  "client_id": "103264737479080680473",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/palpi-palpi%40palpi-project-1572632656896.iam.gserviceaccount.com"
+}

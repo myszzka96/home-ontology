@@ -1,0 +1,12 @@
+ar_marker/400:
+  intent: command
+  command_type: start
+ar_marker/401:
+  intent: command
+  command_type: search
+ar_marker/402:
+  intent: command
+  command_type: memorize
+ar_marker/440:
+  intent: bring_me
+  object: water
