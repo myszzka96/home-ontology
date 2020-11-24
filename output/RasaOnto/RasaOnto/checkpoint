@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/kasia/catkin_ws/src/home-ontology/output/RasaOnto/RasaOnto/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/kasia/catkin_ws/src/home-ontology/output/RasaOnto/RasaOnto/intent_classifier_tensorflow_embedding.ckpt"

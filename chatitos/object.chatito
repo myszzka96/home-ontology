@@ -1,0 +1,66 @@
+import ./negative.chatito
+
+// Command to bring an object to me from an unspecified location
+%[find]('training': '12000', 'testing': '1000')
+    ~[hi?] ~[please?] ~[verb] ~[me?] ~[article?] @[object]
+    ~[hi?] ~[verb] ~[me?] ~[article?] @[object] ~[please?]
+    ~[hi?] ~[please?] ~[verb] ~[article?] @[object] ~[target?]
+    ~[hi?] ~[verb] ~[article?] @[object] ~[target?] ~[please?]
+
+~[verb]
+    bring
+    get
+    grab
+    fetch
+    retrieve
+    find
+
+~[target]
+    here
+    to me
+    over to me
+    back
+    back here
+    over here
+    for me
+
+
+@[object]
+    ~[coffee]
+    ~[wii]
+    ~[game cube]
+    ~[sugar]
+    ~[tape_measure]
+    ~[mouse]
+    ~[fruit]
+    ~[bowl]
+    ~[dish]
+    ~[chips]
+    ~[condiment]
+    ~[cup]
+
+~[article]
+    a
+    an
+    the
+
+~[cup]
+    cup
+    mug
+
+~[condiment]
+    ketchup
+    catch up
+    mustard
+    condiment
+
+~[tape_measure]
+    tape
+    tape measure
+    tape measurer
+
+~[fruit]
+    orange
+    apple
+    fruit
+    banana

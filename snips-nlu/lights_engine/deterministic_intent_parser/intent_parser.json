@@ -1,0 +1,63 @@
+{
+  "config": {
+    "max_pattern_length": 1000, 
+    "max_queries": 100, 
+    "unit_name": "deterministic_intent_parser"
+  }, 
+  "group_names_to_slot_names": {
+    "group_0": "room", 
+    "group_1": "color", 
+    "group_10": "room", 
+    "group_11": "room", 
+    "group_12": "room", 
+    "group_13": "room", 
+    "group_14": "room", 
+    "group_15": "room", 
+    "group_16": "room", 
+    "group_17": "room", 
+    "group_18": "room", 
+    "group_2": "color", 
+    "group_3": "room", 
+    "group_4": "room", 
+    "group_5": "color", 
+    "group_6": "room", 
+    "group_7": "color", 
+    "group_8": "room", 
+    "group_9": "color"
+  }, 
+  "language_code": "en", 
+  "patterns": {
+    "setLightColor": [
+      "^\\s*Please\\s*make\\s*the\\s*lights\\s*(?P<group_7>%COLOR%)\\s*in\\s*the\\s*(?P<group_8>%ROOM%)\\s*$", 
+      "^\\s*I\\s*want\\s*the\\s*(?P<group_4>%ROOM%)\\s*lights\\s*to\\s*be\\s*(?P<group_5>%COLOR%)\\s*$", 
+      "^\\s*Set\\s*the\\s*(?P<group_0>%ROOM%)\\s*s\\s*light\\s*to\\s*(?P<group_1>%COLOR%)\\s*$", 
+      "^\\s*Set\\s*the\\s*lights\\s*color\\s*to\\s*(?P<group_9>%COLOR%)\\s*in\\s*the\\s*(?P<group_10>%ROOM%)\\s*$", 
+      "^\\s*Make\\s*the\\s*lights\\s*(?P<group_2>%COLOR%)\\s*in\\s*the\\s*(?P<group_3>%ROOM%)\\s*please\\s*$", 
+      "^\\s*Can\\s*you\\s*set\\s*the\\s*(?P<group_6>%ROOM%)\\s*lights\\s*to\\s*white\\s*\\?\\s*$"
+    ], 
+    "turnLightOff": [
+      "^\\s*Switch\\s*the\\s*(?P<group_14>%ROOM%)\\s*s\\s*lights\\s*off\\s*please\\s*$", 
+      "^\\s*Turn\\s*off\\s*the\\s*lights\\s*in\\s*the\\s*(?P<group_11>%ROOM%)\\s*$", 
+      "^\\s*turn\\s*the\\s*(?P<group_12>%ROOM%)\\s*s\\s*light\\s*out\\s*please\\s*$", 
+      "^\\s*switch\\s*off\\s*the\\s*light\\s*the\\s*(?P<group_13>%ROOM%)\\s*will\\s*you\\s*\\?\\s*$"
+    ], 
+    "turnLightOn": [
+      "^\\s*switch\\s*the\\s*(?P<group_18>%ROOM%)\\s*s\\s*lights\\s*on\\s*please\\s*$", 
+      "^\\s*Can\\s*you\\s*light\\s*up\\s*the\\s*(?P<group_17>%ROOM%)\\s*\\?\\s*$", 
+      "^\\s*Turn\\s*on\\s*the\\s*lights\\s*in\\s*the\\s*(?P<group_15>%ROOM%)\\s*$", 
+      "^\\s*give\\s*me\\s*some\\s*light\\s*in\\s*the\\s*(?P<group_16>%ROOM%)\\s*please\\s*$"
+    ]
+  }, 
+  "slot_names_to_entities": {
+    "setLightColor": {
+      "color": "color", 
+      "room": "room"
+    }, 
+    "turnLightOff": {
+      "room": "room"
+    }, 
+    "turnLightOn": {
+      "room": "room"
+    }
+  }
+}

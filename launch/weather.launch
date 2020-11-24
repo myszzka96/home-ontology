@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="launch_prefix" default="" />
+	<node pkg="slang" type="text_to_speech_server.py" name="text_to_speech_server" />
+	<node pkg="slang" type="speech_recognition_server.py" name="speech_recognition_server" />
+	<node pkg="slang" type="parse_intent_server.py" name="parse_intent_server" />
+	<node pkg="slang" type="weather.py" name="weather" /> 
+</launch>

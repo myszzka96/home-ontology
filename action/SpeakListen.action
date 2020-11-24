@@ -1,0 +1,9 @@
+#goal definition
+uint8 is_speaking
+string user_prompt
+---
+#result definition
+string sequence
+---
+#feedback
+string speech_recognition_status

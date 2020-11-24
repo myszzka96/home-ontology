@@ -1,0 +1,12 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "command_type",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "object",
+      "entity_parser": "parser_2"
+    }
+  ]
+}

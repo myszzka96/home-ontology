@@ -1,0 +1,2 @@
+Orange isLocatedInsideHomeEquipment Fridge 
+Banana isLocatedOnTopOfHomeEquipment Chair 

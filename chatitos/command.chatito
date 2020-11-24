@@ -1,0 +1,54 @@
+// Start the routine/challenge
+%[command]('training': '1898', 'testing': '100')
+    ~[lets] @[command_type] ~[subject]
+    ~[subject] ~[lets] @[command_type]
+    ~[lets] @[command_type]
+    ~[subject] @[command_type]
+    @[command_type]
+
+~[subject]
+    palpy
+    palpatine
+    you
+    hsr
+    robot
+    buddy
+    friend
+    servant
+
+~[lets]
+    let's
+    let us
+    how about we
+    can we
+    time to
+    we're ready to
+
+@[command_type]
+    ~[start]
+    ~[search]
+    ~[memorize]
+
+~[start]
+    start
+    go
+    begin
+    come
+    come on
+    c'mon
+    commence
+    initiate
+
+~[search]
+    search
+    find
+    locate
+    discover
+    look for
+    explore
+    examine
+
+~[memorize]
+    memorize
+    remember
+    learn
