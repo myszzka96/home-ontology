@@ -21,10 +21,14 @@ a different path.
 	- \openjdk version "1.8.0_242"
 	- OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~16.04-b08)
 	- OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
-- To be listed ...
 
 ## Python requirements
-- To run the Google Speech API you will need to add file with your credentials and replace the Palpi-project-xxx.json
+- To be listed ...
+
+### Add this line to your .bashrc
+```
+export GOOGLE_APPLICATION_CREDENTIALS='<path_to_google_cloud_texttospeech_credentials.json>'
+```
 
 ## Environmental Variables
 Add the following to your ~/.bashrc in Linux systems. For Windows, you would use "Set Environmental Path"
