@@ -83,5 +83,5 @@ source ~/catkin_ws/devel/setup.bash
 ```
 If running on the robot got to ```hsr_b mode```. On a separate terminal run ros master ```roscore```. Then in the orginal window run:
 ```
-rosrun slang test_weather.py
+rosrun home-ontology test_weather.py
 ```
